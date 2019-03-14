@@ -125,6 +125,7 @@ if (localStorage.list2.length > 2) {
     }
 }
 
+if (localStorage.list3) {
 if (localStorage.list3.length > 2) {
     let ok = (localStorage.getItem("list3").split(","))
     for (let i = 0; i < ok.length; i++) {
@@ -136,7 +137,7 @@ if (localStorage.list3.length > 2) {
         completedTasksUl.appendChild(li);
     }
 }
-
+}
 inprogress.addEventListener("click", (event) => {
     const li = event.target.parentNode;
     if (event.target.textContent == "Remove") {
