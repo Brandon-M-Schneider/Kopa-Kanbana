@@ -1,0 +1,154 @@
+body {
+    font-family: 'Original Surfer', cursive;
+}
+
+header {
+    background-color: rgb(66,133,244);
+    margin: 10px 2.5%;
+    color: #fff;
+    border-bottom: 3px solid sandybrown;
+}
+
+.main-headers {
+    text-align: center;
+}
+
+#title {
+    margin: 10px 0 0 0;
+}
+
+#subtitle {
+    margin: 10px 0;
+}
+
+#nav-links {
+    background: sandybrown;
+}
+
+#nav-links ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+
+#nav-links ul li {
+    text-align: center;
+    padding: 5px 0;
+    display: inline-block;
+    width: 25%;
+    margin: 0 12.1%;
+}
+
+#icebox-header {
+    background: lightblue;
+    margin: 10px 2.5%;
+    color: #fff;
+    padding: 10px;
+}
+
+#icebox ul {
+    margin: 10px 2.5%;
+    padding: 0px;
+}
+
+#icebox li {
+    list-style: none;
+    border-radius: 5px;
+    border-bottom: 3px solid sandybrown;
+    background: lightblue;
+    margin: .5em 0;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+#add-item {
+    margin: 10px 2.5%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+#add-item input {
+    margin: 7px 0;
+}
+
+#sub-heading {
+    margin: 10px;
+    padding: 5px;
+    background: white;
+    color: black;
+    
+}
+
+hr {
+    margin: 5px 2.5%
+}
+
+#in-progress-header {
+    background: sandybrown;
+    margin: 10px 2.5%;
+    color: #fff;
+    padding: 10px;
+}
+
+#working-tasks {
+    margin: 10px 2.5%;
+    padding: 0px;
+}
+
+#working-tasks li {
+    list-style: none;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(218, 55, 40);
+    background: #FFE600;
+    margin: .5em 0;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+#complete-header {
+    background: #0F9D58;
+    margin: 10px 2.5%;
+    color: #fff;
+    padding: 10px;
+}
+
+#completed-tasks {
+    margin: 10px 2.5%;
+    padding: 0px;
+}
+
+#completed-tasks li {
+    list-style: none;
+    border-radius: 5px;
+    border-bottom: 3px solid sandybrown;
+    background: lightblue;
+    margin: .5em 0;
+    padding: 20px;
+    line-height: 1.5em;
+    text-decoration: line-through;
+}
+
+#signature {
+    margin: 50px 0 10px 0;
+    font-size: 0.5em;
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#new-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .main-content {
+        flex: 1;
+    }
+}
